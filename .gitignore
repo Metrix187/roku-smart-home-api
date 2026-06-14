@@ -1,0 +1,19 @@
+# --- SECRETS: live auth tokens + decrypted personal phone traffic. NEVER commit. ---
+capture/
+*.mitm
+*.flows
+fw_result.txt
+
+# Local-only: deployment specifics (real MACs / IPs / ids) + Claude working notes
+DEPLOYMENT.local.md
+*.local.md
+CLAUDE.md
+
+# mitmproxy standalone binaries (~80 MB, download separately from mitmproxy.org)
+mitm/
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
